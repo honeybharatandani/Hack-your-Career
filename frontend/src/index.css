@@ -1,0 +1,316 @@
+body {
+  background-image: url("http://www.pngmagic.com/product_images/black-background-for-website-banner-low.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  margin-top: -140px;
+  min-height: 110vh;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+.rating span {
+  margin: 0.1rem;
+}
+
+.btn {
+  border-radius: 3px;
+}
+.available {
+  color: green;
+}
+
+.unavailable {
+  color: red;
+}
+.cardCoun {
+  border-radius: 2px;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.08);
+}
+
+.cardImg {
+  border-radius: 2px;
+}
+
+.ctg {
+  text-align: center;
+  margin-top: 6px;
+}
+
+.sessionImg {
+  height: 70px;
+  border-radius: 3%;
+}
+
+h1 {
+  font-size: 1.4rem;
+  padding: 0.1rem;
+}
+.note {
+  width: 100% !important;
+  height: 200% !important;
+}
+/* .register {
+  color: #ff7950;
+} */
+
+.order_screen_img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid red;
+}
+
+.sessionDone {
+  margin-left: 35px;
+}
+
+.dashContainer {
+  height: 200px;
+  margin-left: auto;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #303030;
+  border-radius: 10px;
+  max-height: 340px;
+  padding: 30px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.dashImg {
+  width: 160px;
+  height: 160px;
+}
+
+.dpImg {
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+
+.dashName {
+  margin-top: 50px;
+}
+
+.cardApi {
+  background: transparent !important;
+  border: none !important;
+}
+
+.dpInfo {
+  margin-bottom: 10px;
+}
+
+.dpbtn {
+  display: inline;
+  margin-right: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.secBtn {
+  background-color: transparent !important;
+  color: #efefef;
+}
+
+.cardcont {
+  justify-content: left !important;
+}
+
+.contentInfo {
+  font-size: 14px;
+  width: 200px;
+}
+
+.contenth1 {
+  font-weight: 500;
+  font-size: x-large;
+  width: 150px;
+  color: #efefef;
+}
+
+.contentProfile {
+  margin-top: 30px;
+}
+
+.innerSessiondetails {
+  font-size: 14px;
+  width: 320px;
+}
+.spanin {
+  color: #b4b2b2;
+}
+.adminSpanin {
+  color: #e84c3b;
+}
+
+.sessionTable {
+  margin-top: -50px;
+  margin-left: 0px;
+  width: 300px;
+  font-size: 14px;
+}
+
+.tdid {
+  font-size: 50%;
+}
+
+.spandp {
+  padding-bottom: 20px !important;
+  font-size: medium !important;
+  color: #fff !important;
+}
+
+.formImg {
+  width: 550px;
+  padding: 50px;
+  justify-content: center;
+  margin-left: 200px;
+  /* margin-top: 100px; */
+}
+.btnImp {
+  margin-left: 20px;
+  height: 40px;
+}
+
+.login {
+  padding: 10px;
+  margin-left: 500px;
+  margin-top: -100px;
+}
+
+.register {
+  margin-left: 500px;
+  margin-top: -400px;
+}
+
+/* .register .regImg {
+  width: 400px;
+  height: 300px;
+} */
+
+/***********************************
+@ media queries
+/***********************************/
+
+@media only screen and (max-width: 1200px) {
+  .cardApi .title {
+    font-size: 100%;
+    margin-top: 0px;
+  }
+  .cardApi .card_text {
+    font-size: 70%;
+  }
+  .dashImg {
+    margin-left: -20px;
+    width: 200px;
+  }
+  .sessionTable {
+    width: 250px !important;
+    margin-left: -5px !important;
+    font-size: x-small !important;
+    padding: 30px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .sessionTable {
+    width: 250px !important;
+    margin-left: -5px !important;
+    font-size: x-small !important;
+    padding: 90px;
+  }
+}
+
+/* @media only screen and (max-width: 600px) {
+  
+  .sessionTable {
+    color: blue;
+    width: 350px!important;
+    margin-left: -105px!important;
+    font-size: small!important;
+    padding: 10px;
+    
+    
+  }
+  
+} */
+
+@media only screen and (max-width: 768px) {
+  .cen {
+    padding: 10px;
+    left: 20%;
+  }
+  .dashContainer {
+    height: 300px;
+    margin-bottom: 15px;
+    padding: 100px;
+  }
+  .dpImg {
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: -10px;
+  }
+  .dpInfo {
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    left: 20px;
+    padding: -10px;
+  }
+  .dashName {
+    margin-top: 10px;
+  }
+  .dpbtn {
+    /* display: flex; */
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100px;
+    text-align: center;
+  }
+  .innerSessiondetails {
+    margin-left: -20px;
+  }
+  .sessionTable {
+    margin-top: -40px;
+    flex: left;
+    margin-left: -150px !important;
+    width: 500px !important;
+    font-size: medium !important;
+  }
+  .cardApi {
+    font-size: x-large;
+  }
+  .formImg {
+    width: 350px;
+    margin: 30px;
+    padding: 0;
+    margin-left: 80px;
+  }
+
+  .login {
+    width: 300px;
+    padding: 20px;
+    margin: 50px;
+  }
+  .login .loginImg {
+    width: 300px;
+    padding: 20px;
+    margin-left: -50px;
+  }
+  .formImg {
+    width: 300px;
+    padding: 20px;
+
+    margin-left: 20px;
+  }
+}

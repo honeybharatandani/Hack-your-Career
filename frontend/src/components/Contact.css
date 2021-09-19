@@ -1,0 +1,72 @@
+.col {
+  display: flex;
+}
+
+.contents > h4 {
+  color: rgb(167, 158, 158);
+  font-weight: 500;
+  font-style: italic;
+  font-size: 2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.contents > li > b:hover {
+  color: rgb(231, 69, 69);
+  cursor: pointer;
+}
+
+li {
+  padding-top: 15px;
+  font-size: 1rem;
+}
+
+/* .image {
+  width: 900px;
+  height: 400px;
+} */
+.contents > span {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.5rem;
+  color: rgb(141, 137, 137);
+}
+
+form > h4 {
+  margin-left: 200px;
+  color: rgb(167, 158, 158);
+  font-weight: 500;
+  font-style: italic;
+  font-size: 2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+form > input {
+  margin-left: 200px;
+  height: 50px;
+  margin-bottom: 20px;
+  background-color: rgb(199, 205, 211);
+  color: black;
+  border: 2px solid aqua;
+  border-radius: 9px;
+  width: 60%;
+  padding: 4px 6px 4px;
+  font-size: 1rem;
+}
+
+.content > button {
+  margin-left: 200px;
+
+  font-style: italic;
+  height: 40px;
+  width: 90px;
+  color: black;
+  border: 2px double #7c7575;
+  transition-duration: 0.4s;
+  text-align: center;
+  font-size: 1rem;
+  background-color: #c2b7b7;
+  border-radius: 9px;
+}
+
+form > button:hover {
+  background-color: #928d8d;
+}
