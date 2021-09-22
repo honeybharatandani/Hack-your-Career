@@ -1,12 +1,15 @@
 body {
-  background-image: url("http://www.pngmagic.com/product_images/black-background-for-website-banner-low.jpg");
+  /* background-image: url("https://previews.123rf.com/images/avgustus/avgustus1712/avgustus171201556/92341512-abstract-texture-background-art-wallpaper-colorful-digital-painting-design-stock-big-size-smoke-art-.jpg"); */
   background-repeat: no-repeat;
+  background-image: url("bgimg.png");
   background-size: cover;
+  background-position: center;
+  /* overflow: hidden; */
 }
 
 main {
-  margin-top: -140px;
-  min-height: 110vh;
+  min-height: 100vh;
+  margin-top: -100px;
 }
 
 h3 {
@@ -76,11 +79,11 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #303030;
+  /* background: #303030; */
   border-radius: 10px;
   max-height: 340px;
   padding: 30px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); */
 }
 
 .dashImg {
@@ -174,7 +177,7 @@ h1 {
   padding: 50px;
   justify-content: center;
   margin-left: 200px;
-  /* margin-top: 100px; */
+  margin-top: 100px;
 }
 .btnImp {
   margin-left: 20px;
@@ -192,9 +195,20 @@ h1 {
   margin-top: -400px;
 }
 
-/* .register .regImg {
+/* 
+.login {
+  padding: 10px;
+  margin-left: -250px;
+}
+
+.register {
+  width: 500px;
+  padding: 10px;
+} */
+/* 
+.register .regImg {
   width: 400px;
-  height: 300px;
+  height: 400px;
 } */
 
 /***********************************

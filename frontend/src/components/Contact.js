@@ -22,6 +22,7 @@ const Contact = () => {
                 <EmailIcon />
               </b>
             </li>
+
             <span>hackurcareer@gmail.com</span>
             <li>
               <b>
@@ -36,14 +37,14 @@ const Contact = () => {
             <form className="content">
               <h4>Send Message:</h4>
               <input type="text" placeholder="Enter email" required />
-              <input type="text" placeholder="Enter Message" required />
+              <textarea type="text" placeholder="Enter Message" required />
               <button>Send</button>
             </form>
           </div>
         </div>
       </div>
       <div className="row">
-        <Image width={400} src={contact} />
+        <Image className="image" width={990} src={contact} />
       </div>
     </div>
   );

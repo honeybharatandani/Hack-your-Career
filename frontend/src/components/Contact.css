@@ -3,7 +3,7 @@
 }
 
 .contents > h4 {
-  color: rgb(167, 158, 158);
+  color: rgb(71, 60, 60);
   font-weight: 500;
   font-style: italic;
   font-size: 2rem;
@@ -20,19 +20,15 @@ li {
   font-size: 1rem;
 }
 
-/* .image {
-  width: 900px;
-  height: 400px;
-} */
 .contents > span {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 1.5rem;
-  color: rgb(141, 137, 137);
+  color: rgb(54, 48, 48);
 }
 
 form > h4 {
   margin-left: 200px;
-  color: rgb(167, 158, 158);
+  color: rgb(83, 79, 79);
   font-weight: 500;
   font-style: italic;
   font-size: 2rem;
@@ -52,9 +48,20 @@ form > input {
   font-size: 1rem;
 }
 
+form > textarea {
+  margin-left: 200px;
+  height: 50%;
+  width: 60%;
+  margin-bottom: 20px;
+  background-color: rgb(199, 205, 211);
+  color: black;
+  border: 2px solid aqua;
+  border-radius: 9px;
+  padding: 4px 6px 4px;
+  font-size: 1rem;
+}
 .content > button {
   margin-left: 200px;
-
   font-style: italic;
   height: 40px;
   width: 90px;

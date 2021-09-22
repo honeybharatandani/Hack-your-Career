@@ -15,7 +15,6 @@ const SigninScreen = ({ location, history }) => {
   useEffect(() => {
     Aos.init({ duration: 500 });
   }, []);
-
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -43,6 +42,7 @@ const SigninScreen = ({ location, history }) => {
         <Col md={8}>
           <FormContainer>
             <h1>Sign In</h1>
+
             {error && <Message variant="danger">{error}</Message>}
             {loading && <Loader />}
             <Form onSubmit={submitHandler}>
@@ -66,14 +66,14 @@ const SigninScreen = ({ location, history }) => {
                 ></Form.Control>
               </Form.Group>
 
-              <Button type="submit" variant="primary">
+              <Button type="submit" variant="primary mt-3">
                 Sign In
               </Button>
             </Form>
 
             <Row className="py-3">
               <Col>
-                New User ?
+                <b> New User ?</b>
                 <Link
                   to={redirect ? `/register?redirect=${redirect}` : "/register"}
                 >

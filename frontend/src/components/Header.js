@@ -17,16 +17,17 @@ const Header = ({ history }) => {
 
   return (
     <header>
-      <Navbar expand="xxl" collapseOnSelect>
+      <Navbar variant="light" expand="xl" collapseOnSelect>
         <Container>
           {/* <LinkContainer to="/">
             <Navbar.Brand>Hack Your Career</Navbar.Brand>
           </LinkContainer> */}
+
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
-              <LinkContainer to="/about-us">
+              <LinkContainer to="/about">
                 <Nav.Link>
                   <h5> &nbsp; About Us</h5>
                 </Nav.Link>
@@ -70,9 +71,9 @@ const Header = ({ history }) => {
                 </NavDropdown>
               ) : userInfo ? (
                 <NavDropdown title={userInfo.name} id="username">
-                  <LinkContainer to="/dashboard">
+                  {/* <LinkContainer to="/dashboard">
                     <NavDropdown.Item>Dashboard</NavDropdown.Item>
-                  </LinkContainer>
+                  </LinkContainer> */}
                   <LinkContainer to="/profile">
                     <NavDropdown.Item>Profile</NavDropdown.Item>
                   </LinkContainer>
@@ -88,7 +89,6 @@ const Header = ({ history }) => {
                   </Nav.Link>
                 </LinkContainer>
               )}
-
               {/**{userInfo && userInfo.isAdmin && (
                 <NavDropdown title="Admin" id="adminmenu">
                   <LinkContainer to="/admin/userlist">

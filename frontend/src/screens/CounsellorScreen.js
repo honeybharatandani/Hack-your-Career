@@ -29,15 +29,15 @@ const CounsellorScreen = ({ history }) => {
 
   return (
     <>
-      <h1>Our Counsellors</h1>
+      <h3>Select your Counsellors</h3>
       {loading ? (
         <Loader />
       ) : error ? (
         <Message variant="warning">{error}</Message>
       ) : (
-        <Row>
+        <Row style={{background: 'white'}}>
           {counsellors.map((counsellor) => (
-            <Col key={counsellor._id} sm={12} md={6} lg={4} xl={3}>
+            <Col key={counsellor._id} sm={10} md={4} lg={4} xl={2}>
               <Counsellor counsellor={counsellor} />
             </Col>
           ))}

@@ -4,17 +4,17 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 const contentStyle = {
-  marginLeft: "400px",
-  marginTop: "330px",
+  marginTop: "220px",
   height: "250px",
   width: "400px",
+  marginLeft: "100px",
 };
-const contentStyle1 = {
-  marginLeft: "200px",
-  height: "250px",
-  width: "400px",
-  marginTop: "100px",
-};
+// const contentStyle1 = {
+//   marginLeft: "200px",
+//   height: "250px",
+//   width: "400px",
+//   marginTop: "200px",
+// };
 
 const Images = () => {
   useEffect(() => {
@@ -22,14 +22,14 @@ const Images = () => {
   }, []);
   return (
     <div>
-      <Image
+      {/* <Image
         style={contentStyle1}
         data-aos="fade-right"
         data-aos-offset="300"
         data-aos-easing="ease-in-sine"
         src="https://www.dheya.com/wp-content/uploads/2021/01/college-student-career-counselling-600x310.png"
         alt="img"
-      />
+      /> */}
       <Image
         style={contentStyle}
         data-aos="flip-left"
